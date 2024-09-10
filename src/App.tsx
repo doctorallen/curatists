@@ -6,7 +6,9 @@ const App = () => {
     <div className="App">
       <Block>Block</Block>
       <Box>Box</Box>
-      <Button color="primary">Click Me!</Button>
+      <Button color="primary" iconStart="check" iconEnd="house">
+        Click Me!
+      </Button>
     </div>
   )
 }

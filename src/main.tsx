@@ -4,6 +4,12 @@ import { Provider } from "react-redux"
 import App from "./App"
 import { store } from "./app/store"
 
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { fas } from "@fortawesome/free-solid-svg-icons"
+
+library.add(fab, fas)
+
 const container = document.getElementById("root")
 
 if (container) {
